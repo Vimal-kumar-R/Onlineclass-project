@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+   
+}
+.main{
+    width: 100%;
+    display: flex;
+    background: rgb(22, 7, 36);
+}
+.container{
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 7%;
+   color: white;
+   animation: container 2s ease-in-out;
+ 
+
+}
+@keyframes container{
+    0%{
+        opacity: 0;
+        transform:translateX(-50%) ;
+    }
+}
+.box-content{
+    color: rgb(148, 97, 30);
+}
+.duration{
+    border: 1px solid;
+    /* width: 100% ; */
+    height: 20%;
+    margin-top:7% ;
+    overflow: hidden;
+    border-radius: 10px;  
+}
+.heading{
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.para{
+    font-size: large;
+}
+    
+table td{
+    padding: 10px;
+  
+}
+.pic{
+    margin-top: 7%;
+    margin-right: 5%;
+    animation: pic 2s ease-in-out;
+    width: 70%;
+    margin: 5%;
+    height: 50%;
+   
+}
+
+@keyframes pic{
+    0%{
+        opacity: 0;
+        transform:translateY(-50%)
+    }
+}
+.stories-pic{
+    border-radius: 50%;
+}
+.success-stories{
+    border: 1px solid;
+    width: 30%;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: rgb(85, 85, 145);
+    color: white;
+    
+}
+
+.success-head{
+    display: flex ;
+    justify-content: center;
+    margin-top: 20px;
+  
+}
+.success-header{
+    text-align: center;
+}
+.success-heading-main{
+  margin-top: 10px;
+ 
+}
+.module{
+    border: 1px solid;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    
+}
+.syllabus-heading{
+      text-align: center;
+      color: white;
+    margin-top: 5%;
+    padding-top: 10px;
+}
+.table-head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ margin-top: 20px;
+ color: rgb(192, 124, 45)
+}
+.syllabus{
+    background-color:rgb(22, 7, 36);
+    
+}
+
+/* navbar */
+
+.nav-container{
+   background-color: black; 
+   /* padding: 5px; */
+   margin-bottom: 10px;
+   margin-top: 10px;
+ 
+}
+.nav-main{
+    display: flex;
+    justify-content:space-around;
+    list-style-type: none;
+
+    
+}
+.nav-content{
+text-decoration: none;
+color: white;
+/* width: 100px; */
+text-align: center;
+padding: 5px;
+
+}
+.nav-content:hover{
+    background-color:skyblue ;
+    border-radius: 5px;
+    color: black;
+    
+}
+/* .nav-child-main{
+   list-style-type: none;
+}
+.nav-child{
+    text-decoration: none;
+}
+.dropdown{
+    display: none;
+}
+.nav-main .nav-content:nth-child(3):hover .dropdown {
+display: block;
+} */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* singup page */
+.signup-container{
+    display: flex;
+    justify-content: center;
+    height:  100vh;
+    background-image: url('https://img.freepik.com/free-photo/office-supplies_23-2148103974.jpg');
+    background-repeat: no-repeat;
+   background-size: cover;
+  
+}
+.signup-box,.login-box{
+    border: 1px solid;
+    height: 50vh;
+   padding: 20px;
+   box-shadow: 3px 4px 5px;
+   margin-top: 10vh;
+  border: none;
+}
+.login-container{
+    display: flex;
+    justify-content: center;
+    height:  100vh;
+    background-image: url("https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.submit-btn{
+    background-color: rgb(14, 68, 14);
+    color: #f1f1f1;
+    border-radius: 2px;
+   margin-top: 10px;
+   padding: 2px;
+  
+}
+.signup-btn{
+    background-color: rgb(14, 79, 36);
+    color:white;
+}
+input{
+    background-color: rgba(236, 230, 230, 0.496);
+    border-radius: 5px;
+}

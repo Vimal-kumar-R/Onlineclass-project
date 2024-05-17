@@ -1,0 +1,13 @@
+
+.login1{
+    width: 50%;
+    border: 2px solid black;
+    height: 450px;
+    position: absolute;
+    background-repeat: no-repeat;
+    margin-top: 10%;
+    color: brown;
+    left: 30%;
+    border-radius: 10px;
+    background-image: url(https://images.pexels.com/photos/7394015/pexels-photo-7394015.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
