@@ -1,0 +1,52 @@
+#styless1{
+    border: 1px solid black;
+    width:300px;
+    height:300px;
+    margin-top: 100px;
+    position: relative;
+    background-color: rgb(21, 53, 53);
+}
+#styless2{
+    position:absolute;
+    bottom: 50px;
+    left: 22px;
+}
+#styless3{
+    display: none;
+    
+}
+.img2:hover + #styless3{
+    display: block;
+    transform: scaleY(1);
+    position: absolute;
+    /* top: 40px; */
+    bottom: 20px;
+    color: cadetblue;
+    
+
+    
+}
+.img2:hover{
+    transform:translateY(-25%);
+    /* transition: 1s; */
+    transform: scaleY(0.5);
+    
+
+
+}
+
+#styless4{
+    margin-top: 200px;
+}
+#styless5{
+    margin-top: 240px;
+    
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+#styless6{
+
+    color: bisque;
+}

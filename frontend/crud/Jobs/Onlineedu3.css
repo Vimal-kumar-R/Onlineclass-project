@@ -1,0 +1,52 @@
+#styles1{
+    border: 1px solid black;
+    width:300px;
+    height:300px;
+    margin-top: 100px;
+    position: relative;
+    background-color: rgb(21, 53, 53);
+}
+#styles2{
+    position:absolute;
+    bottom: 50px;
+    left: 22px;
+}
+#styles3{
+    display: none;
+    
+}
+.img3:hover + #styles3{
+    display: block;
+    transform: scaleY(1);
+    position: absolute;
+    /* top: 40px; */
+    bottom: 20px;
+    color: cadetblue;
+    
+
+    
+}
+.img3:hover{
+    transform:translateY(-25%);
+    /* transition: 1s; */
+    transform: scaleY(0.5);
+    
+
+
+}
+
+#styles4{
+    margin-top: 200px;
+}
+#styles5{
+    margin-top: 240px;
+    
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+#styles6{
+
+    color: bisque;
+}

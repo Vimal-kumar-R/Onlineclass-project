@@ -1,0 +1,36 @@
+/* Default styles for larger screens */
+/* Add your existing CSS styles here */
+
+/* Media query for tablets and smaller screens */
+/* <meta name="viewport" content="width=device-width, initial-scale=1.0"> */
+
+@media screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    #cols {
+      flex-direction: column; /* Display columns instead of rows */
+    }
+    /* Add more responsive styles as needed */
+  }
+  
+  /* Media query for mobile devices */
+  @media screen and (max-width: 480px) {
+    /* Adjust styles for mobile devices */
+    /* Modify layout, font sizes, etc. for smaller screens */
+    #styles1, #style1 {
+      width: 100%; /* Make elements full width on smaller screens */
+    }
+    /* Add more responsive styles as needed */
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+}
+/* Styles for mobile devices */
+@media (max-width: 767px) {
+    /* Your mobile styles here */
+}
+
+/* Styles for tablets */
+
+  /* boxsssssssssssssssssssssssss */
+
